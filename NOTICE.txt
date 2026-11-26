@@ -1,0 +1,10 @@
+Kandinsky ImageSR 2.0
+
+The original transformer and pipeline are copyright Kandinsky Lab and are distributed under the MIT License. The bundled VAE is from black-forest-labs/FLUX.1-schnell, distributed under Apache License 2.0.
+
+Model: https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0
+Model revision: 7d5b5ed7def0b45b98f398c0b295a6b1658863db
+Reference pipeline: https://github.com/kandinskylab/kandinsky-image-sr
+Pipeline revision: 6c2405796cf7576b0cffff27acd103d667b91ca8
+
+The MLX adaptation precalculates timestep projections and converts visual transformer weights to FP16. The VAE weights are unchanged.
