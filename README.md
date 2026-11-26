@@ -43,7 +43,7 @@ On the test Mac, a **380 × 214** input at ×2 took **9.8 seconds** on a warm ru
 
 Install Xcode with its command-line tools, then run from this folder:
 
-    ./scripts/build.sh
+    bash scripts/build.sh
 
 The script downloads a pinned standalone Python runtime and the official model, verifies their hashes, installs the required packages, prepares the MLX weights and builds the app in the build folder. Downloading the model requires an internet connection. The finished app runs locally.
 
